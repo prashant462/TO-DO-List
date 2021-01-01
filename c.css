@@ -1,0 +1,43 @@
+.todo-wrapper
+{
+    width: 500px;
+    min-height: 100px;
+    height:300px;
+    overflow:auto;
+    background-color: rgb(233, 241, 245);
+    padding:10px;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+}
+button{
+    background-color: #4CAF50;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+  }
+  #todo-entry-box{
+    width:400px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 25px;
+    border:rgb(7, 1, 14);
+    outline:black;
+  }
+body{
+    background-color: rgb(75, 146, 143);
+}
